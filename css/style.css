@@ -1,0 +1,41 @@
+mark {
+	color: rgb(6, 87, 30);
+}
+
+h2 mark {
+	color: midnightblue;
+}
+
+.alien {
+	color: limegreen;
+}
+
+.list_link.bloodline {
+	color: red;
+}
+
+.h1,
+.h2 {
+	color: yellowgreen;
+}
+
+#music {
+	color: limegreen;
+}
+
+.text ~ p {
+	color: rgb(7, 172, 172);
+}
+.text + p {
+	color: rgb(94, 139, 3);
+}
+
+[class*="_item"] {
+	color: rgb(89, 116, 17);
+}
+li.list_item {
+	color: maroon;
+}
+.ordered-list > li {
+	color: saddlebrown;
+}
